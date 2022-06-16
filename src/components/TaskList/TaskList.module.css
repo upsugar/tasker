@@ -1,0 +1,115 @@
+.li {
+     font-family: 'Lato', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+     font-weight: bold;
+     padding-top: 10px;
+     margin-bottom: 3px;
+     display: flex;
+     align-items: center;
+     list-style-type: none;
+     flex-direction: row;
+     color: rgba(234, 234, 234, 0.95);
+     background-color: #041955 ;
+     border-radius: 10px;
+     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+ .text {
+     margin-left: 6px;
+     margin-bottom: 6px;
+ }
+
+ .li:hover {
+     background-color: rgba(245, 245, 220, 0.23);
+ }
+
+
+ .check {
+     margin-left: 10px;
+     margin-bottom: 6px;
+     color: rgba(124, 252, 0, 0.86);
+     cursor: pointer;
+ }
+
+ .check:hover {
+     transform: scale(1.1);
+     transition: .1s;
+ }
+
+ .remove {
+     margin-right: 10px;
+     margin-left: 6px;
+     margin-bottom: 6px;
+     color: rgba(255, 69, 0, 0.86);
+     cursor: pointer;
+
+ }
+
+ .remove:hover {
+     transform: scale(1.1);
+     transition: .1s;
+ }
+
+ .edit {
+     margin-bottom: 6px;
+     margin-left: 10px;
+     color: rgba(255, 165, 0, 0.85);
+     cursor: pointer;
+ }
+
+ .edit:hover {
+     transform: scale(1.1);
+     transition: .1s;
+ }
+
+ .e_form {
+     font-family: 'Ubuntu', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+     margin-left: 10px;
+     margin-bottom: 8px;
+     color: #041955;
+ }
+
+ .completed {
+     text-decoration: line-through 3px;
+     color: rgba(105, 181, 105, 0.85);
+ }
+
+.apply {
+    margin-left: 10px;
+    color: rgba(105, 181, 105, 0.85);
+    cursor: pointer;
+}
+
+.apply:hover {
+    transform: scale(1.1);
+    transition: .1s;
+}
+
+ .b_block {
+     display: flex;
+ }
+
+ .filter {
+     display: flex;
+     justify-content: end;
+     margin-top: 10px;
+     font-family: 'Ubuntu', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .filter button {
+     background-color: #041955;
+     border-color: #041955;
+     border-radius: 10px;
+     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+ }
+
+ .filter button:hover {
+     background-color: rgba(135, 69, 251, 0.7);
+     transition: .3s;
+ }
+
+
+
+
+

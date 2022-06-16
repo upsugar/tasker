@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    margin-left: 6%;
+}
+
+.form input {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.add {
+    font-family: 'Ubuntu', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.add button {
+    background-color: #041955;
+    border-color: #041955;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.add button:hover {
+    background-color: rgba(135, 69, 251, 0.7);
+    transition: .3s;
+}
+
